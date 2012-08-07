@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+@FONT-FACE {
+	font-family: 'malgun';
+	  font-style: normal;
+	  font-weight: normal;
+	  src: url('malgun.eot'); 
+	  src: local('☺'), url('malgun.woff') format('woff'), url('malgun.ttf') format('truetype');
+}
+
+@FONT-FACE {font-family: 'malgun';src: url('malgun.eot');}

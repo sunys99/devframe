@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+@IMPORT url("font/nanum/nanum.css");
+@IMPORT url("font/malgun/malgun.css");
+
+/* reset default browser setting */
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, fieldset, legend, input, button, textarea, select, p, blockquote ,th ,td, a
+	{margin:0; padding:0; font-family: '나눔고딕', nanum,"Helvetica Neue",Helvetica,'돋움',Dotum,dodtum Arial, sans-serif; color:#555555; font-size:9pt;}
+body		{font-size:0.75em;}
+body #ie6fix {font-size:12px;}
+form	{margin:0; padding:0;display: block;}
+table	{border-collapse:collapse; border-spacing:0;}
+hr		{display:none;}
+fieldset,img	{border:0;}
+address	{font-style:normal;}
+del,ins	{text-decoration:none;}
+li		{list-style-type:none;}
+a, a:active, a:hover, a:focus	{text-decoration:underline; color:inherit; color:#036;}
+th		{text-align:center; font-weight:bold;}
+h1, h2, h3, h4, h5, h6		{font-size:1em; font-weight:normal;}
+abbr,acronym		{border:0; font-variant:normal;}
+input, button, textarea, select	{font-size:100%; vertical-align:middle;}
+input[type=text], input[type=password], input[type=submit], textarea {border:1px solid #CCC; padding:1px 0 2px 2px;}
+	.ie6fix input, .ie6fix textarea {border:1px solid #CCC; padding:1px 0 2px 2px;}
+input[type=submit] {height:20px; padding:0 2px 2px 2px; cursor:pointer;}
+legend, .hidden		{display:block; position:absolute; left:-9999px; top:-9999px;}
+table caption		{width:0; height:0; font-size:0; line-height:0; visibility:hidden; overflow:hidden;} 
+button	{border:0; padding:0; background:transparent; cursor:pointer;}
+.skipnavigation {display:none;}
+.clear		{clear:both !important; height:0; font-size:0;}

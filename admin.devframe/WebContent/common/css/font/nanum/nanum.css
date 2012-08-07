@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+@FONT-FACE {
+	font-family: 'nanum';
+	  font-style: normal;
+	  font-weight: normal;
+	  src: url('nanum.eot'); 
+	  src: local('☺'), url('nanum.woff') format('woff'), url('nanum.ttf') format('truetype');
+}
+
+@FONT-FACE {
+	font-family: 'nanum';
+	font-style: normal;
+	font-weight: bold;
+	src: url('nanumbd.eot');     
+	src: local('☺'), url('nanumbd.woff') format('woff'), url('nanumbd.ttf') format('truetype');
+}
